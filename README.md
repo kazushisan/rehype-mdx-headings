@@ -1,5 +1,7 @@
 # rehype-mdx-headings
 
+![CI](https://github.com/kazushisan/rehype-mdx-headings/actions/workflows/ci.yml/badge.svg) [![npm version](https://badge.fury.io/js/rehype-mdx-headings.svg)](https://badge.fury.io/js/rehype-mdx-headings)
+
 rehype MDX plugin to export a JavaScript array of headings
 
 ## Install
