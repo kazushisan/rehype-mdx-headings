@@ -16,7 +16,7 @@
     "heading",
     "html",
     "mdx",
-    "mdx-plugin"
+    "markdown"
   ],
   "scripts": {
     "build": "tsc",
