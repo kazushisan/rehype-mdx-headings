@@ -1,0 +1,56 @@
+{
+  "name": "rehype-mdx-headings",
+  "version": "0.1.0",
+  "description": "rehype MDX plugin to export a JavaScript array of headings",
+  "main": "dist/index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kazushisan/rehype-mdx-headings"
+  },
+  "keywords": [
+    "unified",
+    "rehype",
+    "rehype-plugin",
+    "plugin",
+    "heading",
+    "html",
+    "mdx",
+    "mdx-plugin"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint --ext .ts,.js,.cjs .",
+    "test": "vitest run",
+    "prepare": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "Kazushi Konosu <kazushi@konosu.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "@mdx-js/mdx": "^2.3.0",
+    "@types/node": "^20.2.1",
+    "@typescript-eslint/eslint-plugin": "^5.59.6",
+    "@typescript-eslint/parser": "^5.59.6",
+    "esast-util-from-js": "^1.2.0",
+    "eslint": "^8.41.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.8",
+    "rehype": "^12.0.1",
+    "rehype-slug": "^5.1.0",
+    "typescript": "^5.0.4",
+    "unist-util-source": "^4.0.2",
+    "vitest": "^0.31.1"
+  },
+  "eslintIgnore": [
+    "dist/"
+  ],
+  "dependencies": {
+    "estree-util-value-to-estree": "^3.0.1",
+    "hast-util-to-string": "^2.0.0",
+    "unist-util-visit": "^4.1.2"
+  }
+}
