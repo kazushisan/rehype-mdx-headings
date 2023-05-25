@@ -43,11 +43,7 @@ const test = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'].map((tagName) => ({
   tagName,
 }));
 
-const rehypeMdxHeadings: Plugin<
-  { className: string[] }[] | never[],
-  Node<Element>,
-  Node<Element>
-> = () => {
+const rehypeMdxHeadings: Plugin<never[], Node<Element>, Node<Element>> = () => {
   return (ast) => {
     const headings: { value: string; id: string; depth: number }[] = [];
 
